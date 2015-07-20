@@ -1,43 +1,37 @@
-# SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://ck3g.githib.io"
 
-# THEME-SPECIFIC CONFIGURATION
 theme:
-  # Meta
-  title: Type Theme
+  title: Today I Learnt
   avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  gravatar: "809ac34c7d3f932baf08bba11c486b9a"
+  description: "A website with blog posts about what I've learnt today"
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  # header_text: >
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: 'Vitaly.Tatarintsev@gmail.com'
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "ck3g"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: 'https://my.linkedin.com/pub/vitaly-tatarintsev/40/aa9/496'
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange: 'http://stackexchange.com/users/56019/ck3g'
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "ck3g"
   wordpress:
   youtube:
 
@@ -57,7 +51,7 @@ theme:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  
+
   # Post navigation
   post_navigation: false
 
