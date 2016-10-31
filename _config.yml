@@ -1,7 +1,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ck3g.githib.io"
 
-theme:
+template:
   title: Today I Learnt
   avatar: avatar.png
   gravatar: "809ac34c7d3f932baf08bba11c486b9a"
