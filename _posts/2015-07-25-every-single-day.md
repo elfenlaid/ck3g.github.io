@@ -7,7 +7,7 @@ We as software developers should always learn something new about technology and
 There is a multitude of different topics in the technology world and it is growing every day.
 Yes, we won't be able to learn all of these things but we should keep learning.
 
-We cannot just stop and keep staying at same point because tomorrow we well be a step behind.
+We cannot just stop and keep staying at same point because tomorrow we will be a step behind.
 Missing one day of learning means regressing.
 
 What can we do right now? Just start learning something right now.
