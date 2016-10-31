@@ -20,13 +20,13 @@ The app uses that time to for sorting words and provide "most outdated" word fir
 
 The query looks like:
 
-{% highlight sql %}
+``` sql
 SELECT *
 FROM words
 WHERE last_practiced_at < NOW() OR last_practiced_at IS NULL
 ORDER BY last_practiced_at;
 LIMIT 1
-{% endhighlight %}
+```
 
 The problem is newly created words (nonpracticed) does not have last practiced time yet and the `last_practiced_at` filled with a `NULL`s.
 Thus I need to run out of already practiced words first then I will be able to practice new words.
@@ -34,12 +34,12 @@ That is not exactly I want. I want to practice new words first.
 
 Here comes the [`NULLS FIRST`](http://www.postgresql.org/docs/8.3/static/queries-order.html) option for `ORDER BY`.
 
-{% highlight sql %}
+``` sql
 SELECT *
 FROM words
 WHERE last_practiced_at < NOW() OR last_practiced_at IS NULL
 ORDER BY last_practiced_at NULLS FIRST;
 LIMIT 1
-{% endhighlight %}
+```
 
 Now I'm getting new words before the outdated words.
