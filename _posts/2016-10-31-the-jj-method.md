@@ -7,7 +7,7 @@ Just as you can use `pp` method to "pretty print" passed object. You can use `jj
 
 The usage of it is pretty simple. All you need to pass object (or set of objects):
 
-{% highlight ruby %}
+``` ruby
 require 'json'
 
 jj(
@@ -19,11 +19,11 @@ jj(
     desser: "Pana Cota"
   }
 )
-{% endhighlight %}
+```
 
 And the output would a well formatted JSON:
 
-{% highlight json %}
+``` json
 {
   "menu": {
     "main_course": "Schnitzel with Potato",
@@ -36,7 +36,6 @@ And the output would a well formatted JSON:
   },
   "name": "Best Lunches in Town"
 }
-
-{% endhighlight %}
+```
 
 That's prretty much it.
