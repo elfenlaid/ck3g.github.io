@@ -33,7 +33,7 @@ template:
   tumblr:
   twitter: "ck3g"
   wordpress:
-  youtube:
+  youtube: "https://www.youtube.com/channel/UCA9V-_UoKamMjYegk8nJ2hw"
 
   # Scripts
   google_analytics: "UA-65603547-1"
