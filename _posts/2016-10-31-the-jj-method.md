@@ -38,4 +38,7 @@ And the output would a well formatted JSON:
 }
 ```
 
+The `jj` method uses [`JSON.pretty_generate`](http://ruby-doc.org/stdlib-2.3.0/libdoc/json/rdoc/JSON.html#method-i-pretty_generate) behind the scene.
+It simply iterates through the passed arguments and calls `pretty_generate` for each of them.
+
 That's prretty much it.
