@@ -1,7 +1,16 @@
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.template.title }}</title>
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.template.description }}{% endif %}">
+        {% if page.desc %}
+          <meta name="description" content="{{ page.desc }}">
+        {% else %}
+          <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.template.description }}{% endif %}">
+        {% endif %}
+        {% if page.keywords %}
+          <meta name="keywords" content="{{ page.keywords }}">
+        {% else %}
+          <meta name="keywords" content="software development, ruby on rails, ruby, Vitaly Tatarintsev, today I learnt, programming, databases">
+        {% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-Frame-Options" content="sameorigin">
 

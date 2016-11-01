@@ -1,6 +1,8 @@
 ---
 layout: post
 title: False values in Rails
+desc: "False values in Rails"
+keywords: "Rails, Ruby, Ruby on Rails, False values, True values"
 ---
 
 As we know Ruby language has only two **false** values `false` and `nil`.

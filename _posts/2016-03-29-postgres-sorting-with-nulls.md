@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Postgres Sorting with NULLs
+desc: "Postgres Sorting with NULLs"
+keywords: "Postgres, Postgresql, NULL values, sorting"
 ---
 
 First goes the story.
