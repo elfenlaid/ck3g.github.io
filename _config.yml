@@ -37,7 +37,7 @@ template:
 
   # Scripts
   google_analytics: "UA-65603547-1"
-  disqus_shortname:
+  disqus_shortname: "today-i-learnt"
   katex: true # Enable if using math markup
 
   # Localization strings
