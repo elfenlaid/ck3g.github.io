@@ -1,11 +1,11 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ck3g.githib.io"
+url: "http://whatdidilearn.info"
 
 template:
-  title: Today I Learnt
+  title: What did I learn
   avatar: avatar.png
   gravatar: "809ac34c7d3f932baf08bba11c486b9a"
-  description: "A website with blog posts about what I've learnt today"
+  description: "A website with blog posts about what did I learn (today)"
 
   # Header and footer text
   # header_text: >
