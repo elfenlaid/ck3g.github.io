@@ -3,6 +3,7 @@ layout: post
 title: "Elixir - first steps"
 desc: "I am making first steps into Elixir. Learn how to install and write my first Hello World program"
 keywords: "First steps, Elixir, Phoenix, learning Elixir, install, mix, hello world"
+tags: [Elixir]
 ---
 
 What should people, who starting to learn a new language or technology, start from? Of course from implementing a classic "Hello World" project and try it out. Let's try to do this as well.

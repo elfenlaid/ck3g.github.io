@@ -3,6 +3,7 @@ layout: post
 title: "Subscribe to Rails ActionCable Channels from mobile clients such as iOS and Android"
 desc: "Subscribe to Rails ActionCable Channels from mobile clients such as iOS and Android"
 keywords: "Rails, Ruby on Rails, Action Cable, Web Sockets, WebSockets, Chat, Mobile, iOS, Android"
+tags: [Rails, ActionCable, WebSockets]
 ---
 
 You have decided to write a mobile chat app and use Ruby on Rails with ActionCable as a backend. You have followed ActionCable tutorials and succeeded to build web based prototype for that. But your mobile applications cannot connect to the existing channels. Sounds familiar? I had exactly the same issue.

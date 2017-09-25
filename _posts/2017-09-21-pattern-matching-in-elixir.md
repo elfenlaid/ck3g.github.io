@@ -3,6 +3,7 @@ layout: post
 title: "Pattern matching in Elixir"
 desc: "We are discovering a beatiful world of Pattern Matching"
 keywords: "Pattern Matching, assignment, assignment statement, Elixir, Phoenix, learning Elixir"
+tags: [Elixir, Pattern-Matching]
 ---
 
 What is one of the most common things in the programming languages? Of course, it is the assignment statement.

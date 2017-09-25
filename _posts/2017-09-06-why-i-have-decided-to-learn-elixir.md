@@ -3,6 +3,7 @@ layout: post
 title: "Why I have decided to learn Elixir"
 desc: "Why I have decided to learn Elixir"
 keywords: "First steps, Elixir, Phoenix, learning Elixir"
+tags: [Elixir, Phoenix]
 ---
 
 The root of this decision lays a few years earlier in my life. Actually at that time that was not about Elixir.

@@ -3,6 +3,7 @@ layout: post
 title: "What I’ve learnt while participating in a Hackaton"
 desc: "What I’ve learnt while participating in a Hackaton"
 keywords: "Hackaton, Hackaton tips"
+tags: [Hackaton]
 ---
 
 Last month I’ve took part in the [RubyRampage](https://www.rubyrampage.com/) hackaton. [Our team](https://www.rubyrampage.com/entries/280-made-in-wedding) consisted of 3 members: me (as a back-end developer), a front-end developer and a Project Manager.

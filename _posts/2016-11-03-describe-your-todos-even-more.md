@@ -3,6 +3,7 @@ layout: post
 title: "Describe your TODOs even more"
 desc: "Describe your TODOs even more"
 keywords: "Good habbits, TODO, self improvement"
+tags: [Findings]
 ---
 
 As a software developer I have several pet projects.

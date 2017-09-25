@@ -3,6 +3,7 @@ layout: post
 title: The "jj" method
 desc: "The jj method of ruby"
 keywords: "Ruby, json, jj, pretty_generate"
+tags: [Ruby, JSON]
 ---
 
 Just as you can use `pp` method to "pretty print" passed object. You can use `jj` to pretty print passed objects as a JSON.
