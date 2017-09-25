@@ -12,10 +12,13 @@
 // Posts
 @import 'layouts/posts';
 @import 'layouts/index';
+@import 'layouts/tags';
 
 // Partials
 @import 'includes/header';
 @import 'includes/footer';
+
+@import 'overrides';
 
 .margin-top-50 {
   margin-top: 50px;

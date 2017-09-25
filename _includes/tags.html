@@ -1,0 +1,10 @@
+{% assign val = include.post.tags | size %}
+{% if val > 0 %}
+<footer>
+  {% for tag in include.post.tags %}
+  <a class="button" href="{{site.baseurl}}/tags#{{tag}}">
+    <i class="fa fa-tag fa-fw"></i> {{ tag }}
+  </a>
+  {% endfor %}
+</footer>
+{% endif %}
