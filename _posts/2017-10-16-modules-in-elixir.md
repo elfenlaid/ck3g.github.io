@@ -6,7 +6,7 @@ keywords: "Modules, import, alias, Module attributes, Elixir"
 tags: [Elixir]
 ---
 
-Last time we were talking about [functions](2017/10/06/functions-in-elixir.html) I have mentioned that named functions are living inside modules.
+Last time we were talking about [functions](/2017/10/06/functions-in-elixir.html) I have mentioned that named functions are living inside modules.
 Modules provide the namespace for functions and other things defined inside.
 Usually grouped by same meaning.
 

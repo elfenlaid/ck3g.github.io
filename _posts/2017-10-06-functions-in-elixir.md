@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: "Functions in Elixir"
 desc: "Learn how to define and use different type of functions in Elixir"
@@ -247,7 +248,7 @@ iex> Enum.map(1..20, &FizzBuzz.fizz_buzz/1)
 ```
  
 In this example, we have four private `calculate_fizz_buzz/3` functions with the same arity.
-As soon as we are using (Pattern Matching](2017/09/21/pattern-matching-in-elixir.html) in the function arguments,
+As soon as we are using [Pattern Matching](/2017/09/21/pattern-matching-in-elixir.html) in the function arguments,
 Elixir can understand what function do we want to call.
 
 Pay attention that the order of how do we define these functions are important,
@@ -290,7 +291,7 @@ It worth to mention that parentheses, in this case, are mandatory.
 
 ### Multiple bodies
 
-Using Pattern Matching we can have several bodies for functions. For example:
+Using [Pattern Matching](/2017/09/21/pattern-matching-in-elixir.html) we can have several bodies for functions. For example:
 
 ```elixir
 iex> sum = fn
