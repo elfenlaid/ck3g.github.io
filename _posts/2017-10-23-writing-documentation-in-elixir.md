@@ -219,12 +219,12 @@ Now let's try to regenerate our documentation again and check our module page.
 Now we can see a description of the `add_item/2` function, we can see how do our `list` and `description` attributes have been highlighted in the description.
 And also we can see our well-defined example as a separate section.
 
-Let's try yet another cool thing that Elixir provides us. 
+Let's try yet another cool thing that Elixir provides us.
 
 ## Doctests
 
 As you remember from the beginning of the article we even have a single unit test for our `header/0` function.
-Let's extend hour test file by adding `doctest TodoList.Inbox` line.
+Let's extend our test file by adding `doctest TodoList.Inbox` line.
 
 ```elixir
 defmodule TodoList.InboxTest do
@@ -288,7 +288,7 @@ left: "First item"
 
 Ain't that cool?
 
-Now we can avoid the situation where developers forgot to keep documentation up to date after changing the implementation of the function. 
+Now we can avoid the situation where developers forgot to keep documentation up to date after changing the implementation of the function.
 
 ## Summary
 
