@@ -135,3 +135,7 @@ General failure: Something special went wrong
 ## Summary
 
 That finishes the introduction to Exceptions in Elixir. Now we know how to raise and handle several types of exceptions and how to define our own.
+
+<hr />
+
+**UPD**: There is a very nice discussion on [Hacker News](https://news.ycombinator.com/item?id=15734207) about "Fail Fast" in Erlang/Elixir.
