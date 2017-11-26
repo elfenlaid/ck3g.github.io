@@ -68,6 +68,14 @@ header {
     @extend %padding-regular;
     padding-top: 0;
   }
+  &.img-light {
+    header {
+      color: $feature-image-text-color-dark;
+      .meta {
+        color: rgba($feature-image-text-color-dark, .7);
+      }
+    }
+  }
 }
 // Post navigation
 #post-nav {
