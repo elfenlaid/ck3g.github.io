@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 desc: "Vitaly Tatarintsev, a developer who constantly seek for new knowledge and like to hone my skills"
 keywords: "Vitaly Tatarintsev, Vitali Tatarintev, developer, learning, Elixir, Phoenix, Ruby, Ruby on Rails"
 ---
