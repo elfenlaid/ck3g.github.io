@@ -449,3 +449,5 @@ Now, every time we reconnect with our robot, it has its previous state.
 ## Wrapping up
 
 I think we have learned a lot today. Now we know that does OTP means. We can build our own GenServer and we know how to build fault resistant applications using Supervisors. But the journey does not end here. There is way more stuff in OTP.
+
+The complete example fo the code you can find on [the GitHub](https://github.com/ck3g/toy_robot/pull/4) of that project.
