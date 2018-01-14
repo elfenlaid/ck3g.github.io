@@ -121,7 +121,7 @@ On the main page, we can see the list of our existing modules.
 In our case, it is a single `TodoList.Inbox` module which contains description we have created.
 
 <p align="center">
-  <a href="http://amzn.to/2wnReBC"><img src="{{ site.url }}/img/posts/module_doc1.png" /></a>
+  <img src="{{ site.url }}/img/posts/module_doc1.png" />
 </p>
 
 On the left side of the page, we can see the name of our project, version, search bar and a menu.
@@ -147,7 +147,7 @@ end
 Clicking on the module name in this list will bring us to the documentation page of this particular module where we can see more information. For example list of the functions this module provides.
 
 <p align="center">
-  <a href="http://amzn.to/2wnReBC"><img src="{{ site.url }}/img/posts/module_doc_module_page.png" /></a>
+  <img src="{{ site.url }}/img/posts/module_doc_module_page.png" />
 </p>
 
 Here we can see that our module has a single function `header/0` and that function has no documentation.
@@ -170,7 +170,7 @@ end
 Now we should regenerate our docs using `mix docs` command and open the `docs/index.html` file again.
 
 <p align="center">
-  <a href="http://amzn.to/2wnReBC"><img src="{{ site.url }}/img/posts/docs_function1.png" /></a>
+  <img src="{{ site.url }}/img/posts/docs_function1.png" />
 </p>
 
 Now if we navigate to the module page we can see our function has the description.
@@ -213,7 +213,7 @@ Don't worry you will understand the importance of this structure later.
 Now let's try to regenerate our documentation again and check our module page.
 
 <p align="center">
-  <a href="http://amzn.to/2wnReBC"><img src="{{ site.url }}/img/posts/docs_add_item.png" /></a>
+  <img src="{{ site.url }}/img/posts/docs_add_item.png" />
 </p>
 
 Now we can see a description of the `add_item/2` function, we can see how do our `list` and `description` attributes have been highlighted in the description.
