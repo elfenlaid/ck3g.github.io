@@ -45,7 +45,7 @@ defmodule ToyRobot.OtpRobot do
   use GenServer
 
   def handle_call(:report, _from, current_state) do
-    report = ToyRobot.report(state)
+    report = ToyRobot.report(current_state)
     {:reply, report, current_state}
   end
 end
