@@ -155,7 +155,7 @@ Then we can start the server using `mix phoenix.server`. This command will start
 
 Let's try to change the welcome message on the page. Instead of "Welcome to Phoenix" and a bunch of links we are going change it to "Welcome to Prater".
 
-The content of our welcome page located in `web/templates/page/index.html.eex`. Let's open it using your favorite editor and replace it with:
+The content of our welcome page located in `lib/prater_web/templates/page/index.html.eex` (for Phoenix version 1.3). Let's open it using your favorite editor and replace it with:
 
 ```elixir
 <div class="jumbotron">
