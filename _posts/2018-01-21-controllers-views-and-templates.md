@@ -72,7 +72,7 @@ In the `lib/prater_web/router.ex` file we need to replace the following line
 get "/", PageController, :index
 ```
 
-with 
+with
 
 ```elixir
 get "/", RoomController, :index
@@ -80,7 +80,7 @@ get "/", RoomController, :index
 
 By doing that, we are linking the GET HTTP request of the root URL (in our case it's "http://localhost:4000") with the action `index` of the `RoomController`.
 
-Now start the server using `mix phoenix.server` and open a root page. It will greet us with the following error:
+Now start the server using `mix phx.server` and open a root page. It will greet us with the following error:
 
 <p align="center">
   <img src="{{ site.url }}/img/posts/phoenix_controllers_and_views/controller_is_not_avaialble.png" />
@@ -160,7 +160,7 @@ defmodule PraterWeb.RoomView do
 end
 ```
 
-The error changes to 
+The error changes to
 
 ```
 function PraterWeb.RoomView.render/2 is undefined or private

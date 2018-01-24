@@ -86,7 +86,7 @@ And we are ready to go.
 In order to create a new phoenix application we need to use the following command:
 
 ```
-mix phoenix.new PATH [--module MODULE] [--app APP]
+mix phx.new PATH [--module MODULE] [--app APP]
 ```
 
 The `PATH` here is the path to the project. We can also specify `MODULE` and `APP` for the application.
@@ -101,7 +101,7 @@ You can check more options by running:
 So now we know how to create a new app, let's do that.
 
 ```
-→ mix phoenix.new prater
+→ mix phx.new prater
 ```
 
 It will create a bunch of new files and install dependencies. After that, it provides us additional instructions on how to proceed with the starting a server, run an Interactive Elixir etc.
@@ -110,11 +110,11 @@ It will create a bunch of new files and install dependencies. After that, it pro
 We are all set! Run your Phoenix application:
 
     $ cd prater
-    $ mix phoenix.server
+    $ mix phx.server
 
 You can also run your app inside IEx (Interactive Elixir) as:
 
-    $ iex -S mix phoenix.server
+    $ iex -S mix phx.server
 
 Before moving on, configure your database in config/dev.exs and run:
 
@@ -145,7 +145,7 @@ import_config "#{Mix.env}.exs"
 <hr />
 
 Now let's go and run `mix ecto.create`. It will precompile the code and create a blank database for us.
-Then we can start the server using `mix phoenix.server`. This command will start the web server and we can navigate to `http://localhost:4000` to see a phoenix welcome page.
+Then we can start the server using `mix phx.server`. This command will start the web server and we can navigate to `http://localhost:4000` to see a phoenix welcome page.
 
 <p align="center">
   <img src="{{ site.url }}/img/posts/phoenix-welcome-screen.png" />
