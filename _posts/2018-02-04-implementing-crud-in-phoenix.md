@@ -647,6 +647,8 @@ So that concludes the "D".
 To wrap it up. Today we have learned how to create manageable resources using CRUD actions. We have covered all the standard CRUD functions.
 Now out users can create a room, can see the room's details, they can also update the room and even delete it.
 
+You can find all the changes we have done here on the [GitHub page](https://github.com/ck3g/prater/pull/3) of the project.
+
 You may say, that it is possible to create all these CRUD actions using the `mix phx.gen.html` generator. And it would be much faster.
 
 You are right. But!
