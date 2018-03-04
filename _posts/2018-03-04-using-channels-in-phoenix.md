@@ -17,10 +17,11 @@ We are going to cover the basics of working with Phoenix Channels.
 Channels in Phoenix one of the coolest features. Even though that is not that hard to use.
 
 Channels bring the interactive functionality to the web page.
-Usually, then you load the page, you are sending a request to a server and the server responds back with the HTML template.
+Usually, when you load the page, you are sending a request to a server and the server responds back with the HTML template.
 Once the rendering of the page is done, a server has no way to communicate back to your browser.
 
-The things are changed with channels. When you load the page, it can establish connection between a client (your browser) and a server.
+The things are changed with channels.
+When you load the page, it can establish a connection between a client (your browser) and a server.
 Once the connection is established, they can send messages back and forth.
 
 By default, Phoenix uses [WebSockets](https://en.wikipedia.org/wiki/WebSocket) as a transport protocol.
@@ -458,7 +459,7 @@ We also keep another version of the function just in case if there is no token p
 
 Ok, now we have a current user ID assigned to the socket. We can fetch it and pass into a message map:
 
-```
+```elixir
 alias Prater.Repo
 alias Prater.Auth.User
 
