@@ -248,6 +248,8 @@ and extend `npm` section with the following configuration:
 globals: {
   $: 'jquery',
   jQuery: 'jquery',
+  Tether: 'tether',
+  Popper: 'popper.js',
   bootstrap: 'bootstrap'
 }
 ```
