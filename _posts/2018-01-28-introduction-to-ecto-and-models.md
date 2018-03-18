@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to Ecto and Models"
 desc: "Here we are introducing you to Ecto library. We continue to talk about MVC and especially models."
 keywords: "Elixir, Phoenix, Model, Ecto, Changeset, Repo, DataBase"
-tags: [Elixir, Phoenix]
+tags: [Elixir, Phoenix, Ecto]
 ---
 
 In the previous article, we have learned about MVC and covered a little bit more how to work with Controllers and Views.

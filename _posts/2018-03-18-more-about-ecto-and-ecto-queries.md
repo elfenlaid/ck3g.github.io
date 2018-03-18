@@ -7,7 +7,7 @@ tags: [Elixir, Phoenix, Channels, Ecto]
 excerpt_separator: <!--more-->
 ---
 
-Some time ago we already mention Ecto while we were describing Ecto models.
+Some time ago we already mention Ecto while we were describing [Ecto models](http://whatdidilearn.info/2018/01/28/introduction-to-ecto-and-models.html#ecto).
 Ecto quite a big topic, which we cannot cover in a single post.
 
 Today I would like to talk again about Ecto and describe Ecto Queries.
