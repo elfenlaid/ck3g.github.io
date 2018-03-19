@@ -244,7 +244,7 @@ Now let's try to fix that using OTP Supervisors.
 
 The Supervisor is also a process which supervises other processes.
 
-Let's create a `ControPanel` module and turn it into supervisor to control our robot.
+Let's create a `ControlPanel` module and turn it into supervisor to control our robot.
 
 ```elixir
 defmodule ToyRobot.ControlPanel do
