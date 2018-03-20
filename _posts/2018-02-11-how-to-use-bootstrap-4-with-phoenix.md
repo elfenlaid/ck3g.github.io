@@ -2,7 +2,7 @@
 layout: post
 title: "How to use Bootstrap 4 with Phoenix"
 desc: "Learn how to integrate Bootstrap 4 into Phoenix project using CDN and npm.."
-keywords: "Elixir, Phoenix, Bootstrap 4, CDN, npm, front-end"
+keywords: "Elixir, Phoenix, Bootstrap, Bootstrap 4, CDN, npm, front-end"
 tags: [Elixir, Phoenix]
 ---
 

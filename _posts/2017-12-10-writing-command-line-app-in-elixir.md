@@ -2,7 +2,7 @@
 layout: post
 title: "Writing a command line app in Elixir"
 desc: "Use toy robot to build a command line application in Elixir"
-keywords: "Elixir, CLI, Command Line App, Toy robot, kata"
+keywords: "Elixir, CLI, Command Line App, Command line, Toy robot, kata"
 tags: [Elixir, Toy-Robot]
 ---
 
