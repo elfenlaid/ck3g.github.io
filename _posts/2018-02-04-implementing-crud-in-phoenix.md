@@ -88,7 +88,7 @@ end
 
 As we already know from the [Controllers and Views](http://whatdidilearn.info/2018/01/21/controllers-views-and-templates.html) article, an action has to either render the view or redirect user somewhere.
 We need to render the form with inputs for the user, so we are rendering a new page.
-We also need to need to create a `lib/prater_web/templates/room/new.html.eex` template in order to avoid the following error:
+We also need to create a `lib/prater_web/templates/room/new.html.eex` template in order to avoid the following error:
 
 ```
 Could not render "new.html" for PraterWeb.RoomView
